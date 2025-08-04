@@ -22,9 +22,6 @@ if [ -z ${LE_EMAIL+x} ]; then
         exit 1
 fi
 
-
-FORCE_UPDATE="false"
-
 force_update() {
   if [ "${FORCE_UPDATE}" == "true" ]; then
         echo --force-update
